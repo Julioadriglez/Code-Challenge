@@ -1,4 +1,4 @@
-const StudentService = require();
+const StudentService = require("../../lib/controller/");
 
 describe("Pruebas de unidad para StudentService", () => {
     test('Requerimiento 1. consulta de estudiantes', () => {
