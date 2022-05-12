@@ -1,0 +1,23 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Semana 4 de LaunchX-InnovaccionVirtual Mission NodeJS: Code Challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julioadriglez/Code-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julioadriglez/Code-Challenge/issues"
+  },
+  "homepage": "https://github.com/Julioadriglez/Code-Challenge#readme"
+}
