@@ -6,9 +6,9 @@ describe("Pruebas de unidad para StudentService", () => {
         const allStudent = StudentService.students(student)
         expect(allStudent[0].name).toBe("jose")
     });
-    test("Requerimiento 2. Consulta de emails por sertificacion", () => {
+    test("Requerimiento 2. Consulta de emails por certificación", () => {
         const  student = [{"name": "jose", "haveCertification": true}]
-        const studenfilter = StudentService.studentsFilter(student)
-        expect(studenfilter.haveCertification).toBe(true)
+        const studenfilter = StudentService.studentsFilter(student, true)
+        expect(studenfilter).toBe(true)
     });
 })
