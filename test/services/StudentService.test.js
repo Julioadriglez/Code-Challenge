@@ -1,9 +1,9 @@
-const StudentService = require("../../lib/controller/");
+const StudentService = require("../../lib/services/StudentService");
 
 describe("Pruebas de unidad para StudentService", () => {
     test('Requerimiento 1. consulta de estudiantes', () => {
-        const student = {"name" : "jose", "name" : "luis", "name" : "isac" };
-        const studentFilter = StudentController.getStudentFilter(student)
-        expect(studentFilter[0]).toBe("jose")
+        const student = [{"name" : "jose"}, {"name" : "luis"}, {"name" : "isac"}];
+        const studentFilter = StudentService.students(student)
+        expect(studentFilter[0].name).toBe("jose")
     });
 })
