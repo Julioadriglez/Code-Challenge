@@ -7,8 +7,9 @@ describe("Pruebas de unidad para StudentService", () => {
         expect(allStudent[0].name).toBe("jose");
     });
     test("Requerimiento 2. Consulta de emails por certificación", () => {
-        const  student = [{"name": "jose", "haveCertification": true}];
+        const student = [{"name": "jose", "haveCertification": true, "email": "Todd@visualpartnership.xyz"}];
         const studenfilter = StudentService.studentFilter(student, true);
-        expect(studenfilter[0].haveCertification).toBe(true);
+        expect(studenfilter[0]).toBe("Todd@visualpartnership.xyz");
     });
+    test("Requerimiento 3. Consult")
 });
