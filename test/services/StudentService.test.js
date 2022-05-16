@@ -11,5 +11,10 @@ describe("Pruebas de unidad para StudentService", () => {
         const studenfilter = StudentService.studentFilter(student, true);
         expect(studenfilter[0]).toBe("Todd@visualpartnership.xyz");
     });
-    test("Requerimiento 3. Consult")
+    test("Requerimiento 3. Consult  todos los estudiantes que tengan credits mayor a 500.", () => {
+        const student = [{"name": "jose", "haveCertification": true, "credits": 508}];
+        const studenCredist = StudentService.studenfilterCredist(student, 500);
+        expect(studenCredist[0].credits).toBe(508);
+
+    })
 });
