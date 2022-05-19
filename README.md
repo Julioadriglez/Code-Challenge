@@ -60,7 +60,8 @@ Para hace consultas en la api ingresamos a la dirección `http://localhost:3000/
 
  Paara ver a todos los emails de estudiantes que tienen certificación `http://localhost:3000/v1/studentCertification/email`
 
+![](..%5CserverEmails.gif)
+
  Y por ultimo para ver a los estudiantes con mayor creditos dados entramos con  `http://localhost:3000/v1/studentFilter/:credits` donde `: credits` es donde se asignara el valor a buscar por ejemplo  `http://localhost:3000/v1/studentFilter/500` nostrara a los alunmos moyores a 500.
 
  ![](..%5CserverAlumnosCreditos.gif)
- 
