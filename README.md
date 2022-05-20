@@ -50,7 +50,7 @@ El programa es una Api que muestra todos los estudiantes de `visualpartners.json
 
 ### Consultas 
 
-Para hace consultas en la api ingresamos a la dirección `http://localhost:3000/` y nos darala la bienvenida.
+Para hace consultas en la Api ingresamos a la dirección `http://localhost:3000/` y nos darala la bienvenida.
 
 ![serverBienvenida](https://user-images.githubusercontent.com/99068430/169420964-d24937da-1689-49ae-9985-b04013654f66.gif)
 
@@ -58,10 +58,10 @@ Para hace consultas en la api ingresamos a la dirección `http://localhost:3000/
 
 ![serverTodosAlumnos](https://user-images.githubusercontent.com/99068430/169420995-7cf38334-5eb0-43e3-94f1-4c1c4c1cad5e.gif)
 
- Paara ver a todos los emails de estudiantes que tienen certificación `http://localhost:3000/v1/studentCertification/email`
+ Para ver a todos los emails de estudiantes que tienen certificación `http://localhost:3000/v1/studentCertification/email`
 
 ![serverEmails](https://user-images.githubusercontent.com/99068430/169421024-e602e382-577e-46a0-88d1-6f18fda38b3f.gif)
 
- Y por ultimo para ver a los estudiantes con mayor creditos dados entramos con  `http://localhost:3000/v1/studentFilter/:credits` donde `: credits` es donde se asignara el valor a buscar por ejemplo  `http://localhost:3000/v1/studentFilter/500` nostrara a los alunmos moyores a 500.
+ Y por ultimo para ver a los estudiantes con mayor creditos dados entramos con  `http://localhost:3000/v1/studentFilter/:credits` donde `: credits` es donde se asignara el valor a buscar por ejemplo  `http://localhost:3000/v1/studentFilter/500` mostrara a los alunmos moyores a 500.
  
 ![serverAlumnosCreditos](https://user-images.githubusercontent.com/99068430/169421077-e7c2ccc3-bc8e-4959-a6ae-33b32ce052d9.gif)
