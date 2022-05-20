@@ -10,5 +10,9 @@ describe("Pruebas a StudenController", () => {
         const allStudents = StudentController.getStudentFilter();
         expect(allStudents).not.toBeUndefined();
     });
+    test("prueba 3. getStudenFilterCredist no regresa Undefined", () => {
+        const allStudents = StudentController.getStudenFilterCredist(900);
+        expect(allStudents).not.toBeUndefined();
+    })
 
 });
