@@ -1,5 +1,5 @@
 
-const Reader = require("../../lib/utils/Reader")
+const Reader = require("../../lib/utils/Reader");
 
 describe("Prueba a Reader ", () => {
     test("no regrese Undefined", () => {

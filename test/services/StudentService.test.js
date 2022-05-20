@@ -16,5 +16,5 @@ describe("Pruebas de unidad para StudentService", () => {
         const studenCredist = StudentService.studenfilterCredist(student, 500);
         expect(studenCredist[0].credits).toBe(508);
 
-    })
+    });
 });
