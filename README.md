@@ -7,10 +7,10 @@ Semana 4 de LaunchX-InnovaccionVirtual Mission NodeJS: Code Challenge
 Para la realización de este proyecto se utilizó varias dependencias esenciales para el funcionamiento de Código.
 
 * `Jest`: Se utilizo para hacer pruebas de unidad, se instaló la vercion  26.0.0 porque la versión más reciente no es compatible con `github actions`
-* `express`: Con esta dependencia la utilizamos para poder crear el servidor.
-* `eslint`: Para la corrección de inconsistencias del código.
+* `Express`: Con esta dependencia la utilizamos para poder crear el servidor.
+* `Eslint`: Para la corrección de inconsistencias del código.
 
-Tambien se utilizó la herramienta `git` para versionar el proyecto y `GitHub Actions` para automatizar las pruebas de unidad cuando se realice un push al repositorio.
+Tambien se utilizó la herramienta `Git` para versionar el proyecto y `GitHub Actions` para automatizar las pruebas de unidad cuando se realice un push al repositorio.
 
 ## Diseño de componentes.
 
